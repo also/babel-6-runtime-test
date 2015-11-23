@@ -3,6 +3,7 @@ node_js:
   - "4.1"
 before_install:
   - npm install -g npm@3
+  - npm --version
 before_script:
   - npm dedupe
   - babel-doctor
