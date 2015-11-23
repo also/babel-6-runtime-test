@@ -7,3 +7,4 @@ before_install:
 before_script:
   - npm dedupe
   - babel-doctor
+  - npm ls
