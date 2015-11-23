@@ -9,6 +9,8 @@
     "babel-preset-es2015": "6.1.18"
   },
   "scripts": {
-    "build": "babel test.js --out-dir lib --source-maps"
+    "build": "babel test.js --out-dir lib --source-maps",
+    "postinstall": "npm run build",
+    "test": "node lib/test.js"
   }
 }
